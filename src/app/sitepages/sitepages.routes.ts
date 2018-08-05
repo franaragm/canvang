@@ -11,9 +11,9 @@ const sitePagesRoutes: Routes = [
     path: '',
     component: SitepagesComponent,
     children: [
-      { path: 'home', component: HomeComponent, data: {title: 'Inicio'} },
-      { path: 'about', component: AboutComponent, data: {title: 'Sobre Nosotros'} },
-      { path: 'faq', component: FaqComponent, data: {title: 'Preguntas frecuentes'} },
+      { path: 'home', component: HomeComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'faq', component: FaqComponent },
       { path: '**', redirectTo: '/home', pathMatch: 'full' },
       { path: '', redirectTo: '/home', pathMatch: 'full' }
     ]

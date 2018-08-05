@@ -1,0 +1,30 @@
+.lang-selector {
+  margin-top: 20px;
+  -webkit-transition: margin-top .4s ease;
+  -o-transition: margin-top .4s ease;
+  transition: margin-top .4s ease;
+}
+
+.sticky-header .lang-selector {
+  margin-top: 0px;
+}
+
+.lang-selector .dropdown-menu {
+  top: -14px !important;
+  left: 27px !important;
+}
+
+@media (max-width: 991px) {
+  #primary-menu > div > ul {
+    padding-top: 0px !important;
+  }
+
+  .lang-selector {
+    margin-top: 0px;
+  }
+}
+
+
+
+
+

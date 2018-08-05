@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 
 @NgModule({
@@ -14,11 +15,13 @@ import {FooterComponent} from './footer/footer.component';
   ],
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TopbarComponent
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TopbarComponent
   ]
 })
 export class SharedModule {
